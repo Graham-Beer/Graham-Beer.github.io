@@ -12,9 +12,9 @@ tags:
 
 This is a test, check it out !
 
-```
+'''
 Take a look, this is my new blog
 
 @{ Please enjoy! }
-```
+'''
 GoodBye
