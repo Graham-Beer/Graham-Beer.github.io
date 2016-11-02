@@ -1,1 +1,25 @@
+---
+layout: post
+title: "test"
+date:   
+comments: true
+description:  "This is a test post"
+categories: 
+    - Test
+tags: 
+    - Test
+---
 
+This is a test, check it out !
+
+```
+Take a look, this is my new blog
+
+@{ Please enjoy! }
+```
+
+## End
+
+```
+"GoodBye"
+```
