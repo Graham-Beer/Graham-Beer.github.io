@@ -1,6 +1,6 @@
 # Site settings
-title:
-description: 'System Engineer, PowerShell, Puppet, Docker and SCCM who is a huge automation fan!'
+title: Graham Beer Blog
+description: "System Engineer, PowerShell, Puppet, Docker and SCCM who is a huge automation fan!"
 url: 'https://graham-beer.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -36,13 +36,13 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
- syntax_highlighter_opts:    
- css_class: 'highlight'    
- span:      
- line_numbers: false    
- block:      
- line_numbers: true      
- start_line: 1
+  syntax_highlighter_opts:    
+    css_class: 'highlight'    
+    span:      
+      line_numbers: false    
+    block:      
+      line_numbers: true      
+      start_line: 1
 
 gems: ['jekyll-paginate', 'jemoji', 'jekyll-sitemap', 'jekyll-gist']
 
