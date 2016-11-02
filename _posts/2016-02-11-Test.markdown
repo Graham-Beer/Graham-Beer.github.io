@@ -20,6 +20,4 @@ Take a look, this is my new blog
 
 ## End
 
-```
 GoodBye
-```
