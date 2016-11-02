@@ -13,7 +13,7 @@ tags:
 This is a test, check it out ! !
 
 ```powershell
-@{ Please enjoy! }
+test = @{ Please enjoy! }
 ```
 
 **prints**
