@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: Graham Beer Blog
+description: 'System Engineer, PowerShell, Puppet, Docker and SCCM who is a huge automation fan!'
+url: 'https://graham-beer.github.io/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Graham Beer'
+  email: Graham.Beer@DTLK.co.uk
+  # twitter_username: 
+  # facebook_username: 
+  github_username:  Graham-Beer
+  linkedin_username:  https://uk.linkedin.com/in/graham-beer-7a178951
 
 defaults:
   -
@@ -35,5 +35,13 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+ syntax_highlighter_opts:    
+ css_class: 'highlight'    
+ span:      
+ line_numbers: false    
+ block:      
+ line_numbers: true      
+ start_line: 1
+
+gems: ['jekyll-paginate', 'jemoji', 'jekyll-sitemap', 'jekyll-gist']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
