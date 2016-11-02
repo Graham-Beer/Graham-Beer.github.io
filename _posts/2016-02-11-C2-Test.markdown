@@ -13,8 +13,6 @@ tags:
 This is a test, check it out ! !
 
 ```powershell
-Take a look, this is my new blog
-
 @{ Please enjoy! }
 ```
 
