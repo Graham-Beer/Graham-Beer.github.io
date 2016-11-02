@@ -10,7 +10,7 @@ tags:
     - Test
 ---
 
-This is a test, check it out !
+This is a test, check it out ! !
 
 ``` code
 Take a look, this is my new blog
