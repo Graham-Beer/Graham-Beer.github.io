@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "test"
+title: test
 date: 02/11/2016  
 comments: true
-description:  "This is a test post"
+description: This is a test post
 categories: 
     - Test
 tags: 
