@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "test"
-date:   
+date: 02/11/2016  
 comments: true
 description:  "This is a test post"
 categories: 
