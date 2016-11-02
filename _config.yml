@@ -1,7 +1,7 @@
 # Site settings
-title: 'Graham Beer Blog'
+title: Graham Beer Blog
 description: 'System Engineer, PowerShell, Puppet, Docker and SCCM who is a huge automation fan!'
-url: 'https://graham-beer.github.io/'
+url: 'https://graham-beer.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
@@ -13,7 +13,7 @@ author:
   # facebook_username: 
   github_username:  Graham-Beer
   linkedin_username: Graham-Beer
-  #https://uk.linkedin.com/in/graham-beer-7a178951
+  # https://uk.linkedin.com/in/graham-beer-7a178951
 
 defaults:
   -
