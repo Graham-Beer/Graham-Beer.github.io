@@ -3,17 +3,24 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
   
-<header class="panel-cover" style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})">
+<!--style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})"-->
+
+<header class="panel-cover" >
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}" title="link to home of {{ site.title }}">
+        
           <img src="https://avatars3.githubusercontent.com/u/12196171?v=3&s=466" class="user-image" alt="My Profile Photo">
-          <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
-        </a>
+          <h1 class="panel-cover__title panel-title">
+            [<a href="{{ site.baseurl }}" title="link to home of {{ site.author.name }}">{{ site.author.name }}</a>@<a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">{{ site.author.github_username }}</a>]
+          </h1>
+
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">{{ site.description }}</p>
+        <p class="panel-cover__description">
+          <!--<span>more me.txt</span>-->
+          {{ site.description | newline_to_br }}
+        </p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
