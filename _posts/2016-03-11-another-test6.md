@@ -10,9 +10,8 @@ tags:
     - PowerShell
 ---
 
-## The code
+Lets take a look at the code
 
 ```powershell
 (ls c:\temp).count
 ```
-
