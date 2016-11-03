@@ -1,5 +1,5 @@
 # Site settings
-title: ${Graham Beer} = blog
+title: ${Graham Beer} = "blog"
 description: "System Engineer, PowerShell, Puppet, Docker and SCCM who is a huge automation fan!"
 url: 'https://graham-beer.github.io'
 baseurl: '/'
