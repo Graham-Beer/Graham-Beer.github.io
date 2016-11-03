@@ -10,6 +10,8 @@ tags:
     - PowerShell
 ---
 
+This is the code..
+
 ```powershell
 (ls c:\temp).count
 ```
