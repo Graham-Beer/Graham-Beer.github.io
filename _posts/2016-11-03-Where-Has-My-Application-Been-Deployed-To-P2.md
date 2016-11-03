@@ -14,6 +14,7 @@ tags:
 ---
 
 First off, welcome to my blog. As my blog develops you will see i'm always looking for a way to do things a bit quicker and hopefully easier!
+
 So some background. I work for a medium size company using SCCM 2012 R2 SP1 with many applications from in-house developed to 3rd party. Our software library is separated into folders of application suppliers, i.e. Microsoft, Adobe. Many of these applications have some weird and wonderful suppliers making it a little time consuming finding the one you want to look over. Sure, I can navigate into software library and do a search on subfolders for the application name. But with PowerShell this task can be done much quicker.
 To continue on the background on why I created the below script, our company deploy most applications through AD groups. So its not unusual for an application to be deployed to a few collections. (The AD group collection and a test collection.) 
 The script I wrote taps into Configuration Manager namespace in WMI. A lot of the "out of the box" cmdlets are good, but there is a wealth of data in WMI.  
