@@ -8,7 +8,6 @@ categories:
     - PowerShell
 tags: 
     - PowerShell
-    - JSON
 ---
 
 ## The code
