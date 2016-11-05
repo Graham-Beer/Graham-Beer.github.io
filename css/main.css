@@ -196,7 +196,7 @@ a {
 .panel-cover--overlay 
 {
   background: #272822;
-  background: url('../images/dark-triangles.png');
+  background: url('..images/cover.jpg');
 }
 
 .panel-cover
