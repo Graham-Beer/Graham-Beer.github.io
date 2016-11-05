@@ -193,12 +193,13 @@ a {
     color: #e4003d
 }
 
+/*
 .panel-cover--overlay 
 {
   background: #272822;
   background: url('..images/cover.jpg');
 }
-
+*/
 .panel-cover
 {
 	/*display: block;
