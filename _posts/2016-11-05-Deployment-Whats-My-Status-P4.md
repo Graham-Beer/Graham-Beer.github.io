@@ -17,11 +17,14 @@ Deployments...as an SCCM administrator you are always deploying something ...
 be it applications or software updates or even a task sequence. Through the console you go into monitoring, select deployments .... 
 find what you have deployed...then go through and check status to see what targeted devices have been successful or even failed. Maybe 
 you make a note of the failed devices, but this isn't practical for lots of machines and certainly isn't the best way to spend your 
-day !By using PowerShell I can access the WMI class 'SMS_AppDeploymentAssetDetails' and get the status of an application. There are five status that an application could be in. They are: 
+day !By using PowerShell I can access the WMI class 'SMS_AppDeploymentAssetDetails' and get the status of an application. There are five status that an application could be in. They are:
+
 **Success –** The application deployment succeeded or was found to be already installed.
 **In Progress –** The application deployment is in progress.
 **Unknown –** The state of the application deployment could not be determined. This state is not applicable for deployments with a purpose of Available. This state is typically displayed when state messages from the client are not yet received.
+
 **Requirements Not Met –** The application was not deployed because it was not compliant with a dependency or a requirement rule, or because the operating system to which it was deployed was not applicable.
+
 **Error –** The application failed to deploy because of an error. 
 
 ##The script:
