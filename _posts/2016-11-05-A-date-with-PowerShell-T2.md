@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title:  "A date with PowerShell"
@@ -17,30 +18,50 @@ This gave me an idea for a fun script that would get your age in years, months a
 I wanted date of birth passed to the function as 'dd/MM/yy'. To keep to this format, I’m using the 'ValidatePattern' Advanced Parameter with a Regular Expression (Regex). The regular expression, "^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/(\d{2})$", will only allow a date in the format of 01/01/16, for example. 
 
 Briefly, here is regex syntax I used in some of the expression:
-
+```
 ^ Start of string
+
 ( .. ) Capturing group
+
 (0[1-9] Match two digits that make up the day. This accepts numbers from 01 to 09
+
 | Acts like a Boolean OR.
+
 /d match any digital character
+
 [12] match any character in the set
+
 / used to divide the date numbers
+
 {2} Exactly two times
+
 $ End of string
+```
 
 Now that my function parameter variable $Bday has a date, its passed to get-date to be converted from a string to a date. The date in variable $cDate will look like this, '01 January 2016 00:00:00'. The next line in the code will use todays date and subtract the date passed in $cDate variable. The $diff variable will contain the following data which we will use to get our age in years, months and days:
 
 Days : 212
+
 Hours : 12
+
 Minutes : 40
+
 Seconds : 20
+
 Milliseconds : 533
+
 Ticks : 183624205335135
+
 TotalDays : 212.528015434184
+
 TotalHours : 5100.67237042042
+
 TotalMinutes : 306040.342225225
+
 TotalSeconds : 18362420.5335135
+
 TotalMilliseconds : 18362420533.5135
+
 
 I've contained this first part in our Begin block. The Process block does the main code. 
 Now I need to get my age in Years, Months and Days. This is where the [math] data type is used. I'm using the 'Truncate' property as 
