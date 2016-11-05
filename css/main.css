@@ -459,12 +459,12 @@ article p img
 }
 
 .post-list__post-title::before
-{
+/*{
    content: 'PS C:\\>  ';
    color: #f0f2f1;
    background-color: #00499a;
    font-size: .8em;
-}
+}*/
 
 .post-list__meta--date, .post-list__meta
 {
