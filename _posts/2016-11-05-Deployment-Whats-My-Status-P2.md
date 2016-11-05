@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Deployment, what’s my status ?!"
-date:   2016-11-05 12:05comments: true
+title: "Deployment, what’s my status ?!"
+date: 2016-11-05 12:05comments: true
 description: "Deployment, what’s my status ?!"
 categories:     
-  - PowerShell 
-  - SCCM
+    - PowerShell 
+    - SCCM
 tags:     
-  - PowerShell 
-  - SCCM
+    - PowerShell 
+    - SCCM
 ---
 
 Deployments...as an SCCM administrator you are always deploying something ... 
