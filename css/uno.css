@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,400)';
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -1099,7 +1099,7 @@ pre {
 .content-wrapper {
 	z-index: 800;
 	width: 60%;
-	max-width: 800px;
+	max-width: 1100px;
 	margin-left: 40%; }
 
 .content-wrapper__inner {
@@ -1210,7 +1210,7 @@ hr {
 	width: 100%;
 	max-width: none;
 	height: 100%;
-	background: url(../images/background-cover.jpg) top left no-repeat #666666;
+	/*background: url(../images/background-cover.jpg) top left no-repeat #666666;*/
 	background-size: cover; }
 
 .panel-cover--collapsed {
