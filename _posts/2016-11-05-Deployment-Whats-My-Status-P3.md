@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Deployment, what’s my status ?!"
-date: 2016-11-05 12:05comments: true
-description: "Deployment, what’s my status ?!"
-categories:     
-    - PowerShell 
+title: "Deployment, What's my status?!"
+date: 2016-11-05
+comments: true
+description: "Deployment, What's my status?!"
+categories:
+    - PowerShell
     - SCCM
-tags:     
-    - PowerShell 
+tags:
+    - PowerShell
     - SCCM
 ---
 
