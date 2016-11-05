@@ -217,10 +217,10 @@ a {
 }
 
 .panel-title.panel-cover__title::after 
-{
+/* {
     content: '~ ';
     color: #f92672;
-}
+} */
 
 .panel-cover__description
 {
