@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "A date with PowerShell"
@@ -18,6 +17,7 @@ This gave me an idea for a fun script that would get your age in years, months a
 I wanted date of birth passed to the function as 'dd/MM/yy'. To keep to this format, I’m using the 'ValidatePattern' Advanced Parameter with a Regular Expression (Regex). The regular expression, "^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/(\d{2})$", will only allow a date in the format of 01/01/16, for example. 
 
 Briefly, here is regex syntax I used in some of the expression:
+
 ```
 ^ Start of string
 
