@@ -11,9 +11,9 @@ tags:
     - SCCM
 ----
 
-ConfigMgr overview: quick view of servers and roles
+If you have a reasonable sized Configuration Manager environment, then quickly displaying servers, with a list of roles installed and the number roles for each site is not easy. 
 
-If you have a reasonable sized Configuration Manager environment, then quickly displaying servers, with a list of roles installed and the number roles for each site is not easy. This sort of information can be useful to your manager, a 3rd party coming in to do a review or walking into a new job.
+This sort of information can be useful to your manager, a 3rd party coming in to do a review or walking into a new job.
 This script I created will display this information for you and quickly. Running the script has two options:
 
 **1.** Get-CMSiteOverview : This will display all the data in the 'SMS_SCI_SysResUse' class  name, unformatted. This will give you the option to choose what you select by piping to a select-object, Where-object type filter. (i.e. Get-CMSiteOverview | select NetworkOSPath, RoleName)
