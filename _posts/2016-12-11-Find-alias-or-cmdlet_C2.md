@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "What's my Alias? Write less for the same results"
@@ -69,4 +68,4 @@ Select-String
 ```
 
 This script can be downloaded from my github page.
-[](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
+[Find-Alias-or-Cmdlet](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
