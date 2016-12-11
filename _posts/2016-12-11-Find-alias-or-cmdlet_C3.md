@@ -68,4 +68,4 @@ Select-String
 ```
 
 This script can be downloaded from my github page.
-[Find-Alias-or-Cmdlet](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
+[https://github.com/Graham-Beer/Find-Alias-or-Cmdlet](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
