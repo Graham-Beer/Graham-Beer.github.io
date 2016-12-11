@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title:  "What's my Alias? Write less for the same results"
@@ -48,6 +49,7 @@ Function Get-AltName ($CmdletToAlias,$AliasToCmdlet) {
 I called it 'Get-AltName' name as, get alterntive name. 
 
 Examples:
+
 ```
 Get-AltName -CmdletToAlias select-string
 
@@ -55,7 +57,9 @@ Alias Name
 ----------
 sls
 ```
+
 and...
+
 ```
 Get-AltName -AliasToCmdlet sls
 
@@ -63,13 +67,6 @@ Cmdlet Name
 -----------
 Select-String
 ```
+
 This script can be downloaded from my github page.
 [](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
-
-
-
-
-
-
-
-
