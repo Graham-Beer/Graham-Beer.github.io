@@ -67,5 +67,6 @@ Cmdlet Name
 Select-String
 ```
 
-This script can be downloaded from my github page.
+This script can be downloaded from my github page,
+
 [https://github.com/Graham-Beer/Find-Alias-or-Cmdlet](https://github.com/Graham-Beer/Find-Alias-or-Cmdlet)
