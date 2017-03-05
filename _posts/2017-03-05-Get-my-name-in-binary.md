@@ -57,8 +57,12 @@ The last part of the script is to join all the binary codes together and with th
 to split the names with a space (Should there be more than one name).
 
 By using my name, the script output looks like so:
-```
+```PowerShell
 Enter Name(s): Graham Beer
 Your Name 'Graham Beer' in Binary is :
 010001110111001001100001011010000110000101101101 01000010011001010110010101110010
 ```
+
+Script is on my GitHub page should you want to find your binary name ! 
+
+<script src="https://gist.github.com/Graham-Beer/574f1b508e313d8078248645f23e1087.js"></script>
