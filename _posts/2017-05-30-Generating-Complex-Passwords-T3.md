@@ -25,7 +25,7 @@ numberOfNonAlphanumericCharacters
 Type: System.Int32
 > The minimum number of non-alphanumeric characters (such as @, #, !, %, &, and so on) in the generated password. 
 
-Return Value
+Return Value  
 Type: System.String 
 > A random password of the specified length.
 
