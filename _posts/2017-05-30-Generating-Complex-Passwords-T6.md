@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating Complex Passwords"
-date:   2017-05-30 21:30
+date:   2017-05-30 21:35
 comments: true
 description: "Script to generate a single or multiple complex passwords"
 categories: 
@@ -36,7 +36,7 @@ To generate multiple passwords, pass strings or integers across the pipeline:
 ```PS > 1,2,3,4 | New-ComplexPassword -PasswordLength 16 -SpecialCharCount 5```  
 ```PS > 'John','Paul','George','Ringo' | New-ComplexPassword -PasswordLength 10 -SpecialCharCount 2```
 
-```
+```PowerShell
 Function New-ComplexPassword {
     [Cmdletbinding(DefaultParameterSetName='Single')]
 
