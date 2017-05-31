@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating Complex Passwords"
-date:   2017-05-31 09:00
+date:   2017-05-31 09:10
 comments: true
 description: "Script to generate a single or multiple complex passwords"
 categories: 
@@ -15,7 +15,7 @@ to the admin team.
  By making use of System.Web.Security.Membership class I could call the static method GeneratePassword, which takes two
 integer parameters. Refering to the MSDN documentation, it explains the usage of both parameters and the output value:
  
-***Length***
+***Length***  
 **Type:** System.Int32  
 > The number of characters in the generated password. The length must be between 1 and 128 characters. 
 
