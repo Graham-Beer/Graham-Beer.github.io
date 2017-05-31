@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating Complex Passwords"
-date:   2017-05-31 09:25
+date:   2017-05-31 09:30
 comments: true
 description: "Script to generate a single or multiple complex passwords"
 categories: 
@@ -31,14 +31,19 @@ Refering to the MSDN documentation, it explains the usage of both parameters and
 > A random password of the specified length.
 
 To generate a single password simple pass the password length and number of special characters required:  
-
+```powershell
     New-ComplexPassword -PasswordLength 8 -SpecialCharCount 1
+```
 
 To generate multiple passwords, pass strings or integers across the pipeline:  
 
+```powershell
     PS > 1,2,3,4 | New-ComplexPassword -PasswordLength 16 -SpecialCharCount 5
-    PS > 'John','Paul','George','Ringo' | New-ComplexPassword -PasswordLength 10 -SpecialCharCount 2
+```
 
+```powershell
+    PS > 'John','Paul','George','Ringo' | New-ComplexPassword -PasswordLength 10 -SpecialCharCount 2
+```
 
 ----------
 ```powershell
@@ -83,7 +88,7 @@ To generate multiple passwords, pass strings or integers across the pipeline:
             }
         } # End of Switch
     }
-    } # End of Function
+} # End of Function
 ```
 
 As always script is on my GitHub pages.
