@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating Complex Passwords"
-date:   2017-05-31 09:15
+date:   2017-05-31 09:20
 comments: true
 description: "Script to generate a single or multiple complex passwords"
 categories: 
@@ -14,7 +14,9 @@ This is a handy little script to create a single or multiple complex passwords.
 I found the need on a recent project to generate and pass a list of random complex passwords for many new users
 to the admin team. 
  By making use of *System.Web.Security.Membership* class I could call the static method GeneratePassword, which takes two
-integer parameters. Refering to the MSDN documentation, it explains the usage of both parameters and the output value:
+integer parameters. 
+
+Refering to the MSDN documentation, it explains the usage of both parameters and the output value:
  
 ***Length***  
 **Type:** System.Int32  
