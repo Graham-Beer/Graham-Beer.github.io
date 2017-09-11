@@ -2,7 +2,7 @@
 # title: ${Graham Beer} = blog
 # description: 'System Engineer, PowerShell Developer, WinOps and a huge automation fan!'
 url: 'https://graham-beer.github.io'
-baseurl: ''
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
