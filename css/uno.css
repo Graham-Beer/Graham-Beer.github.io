@@ -1,4 +1,4 @@
-@import '//fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,400)';
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -991,12 +991,14 @@ em {
 
 blockquote {
 	margin: 1em 0;
-	padding: 0.5em 0.5em;
+	padding: 2em 0;
 	background: #f8f8f8;
 	border: 1px solid #eeeeee;
 	border-radius: 3px;
 	font-family: "Roboto Slab", serif;
 	font-weight: lighter;
+	font-style: italic;
+	font-size: 1.3em;
 	text-align: center; }
 	blockquote p:last-child {
 		margin-bottom: 0; }
@@ -1097,7 +1099,7 @@ pre {
 .content-wrapper {
 	z-index: 800;
 	width: 60%;
-	max-width: 1000px;
+	max-width: 1100px;
 	margin-left: 40%; }
 
 .content-wrapper__inner {
@@ -1208,7 +1210,7 @@ hr {
 	width: 100%;
 	max-width: none;
 	height: 100%;
-	background: url(../images/background-cover.jpg) top left no-repeat #666666;
+	/*background: url(../images/background-cover.jpg) top left no-repeat #666666;*/
 	background-size: cover; }
 
 .panel-cover--collapsed {
@@ -1255,7 +1257,7 @@ hr {
 	vertical-align: middle;
 	position: relative;
 	z-index: 800;
-	padding: 0 4em; }
+	padding: 0 60px; }
 
 .panel-main__content {
 	max-width: 620px;
