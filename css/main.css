@@ -47,7 +47,7 @@ pre.highlight code,
 .footer__copyright {
     margin: 0 20px 10px;
 }
-
+/*
 .user-image {
   margin-bottom: 1.2em;
   position: relative;
@@ -56,7 +56,7 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
-
+*/
 
 /*
  * Block Quotes
@@ -202,14 +202,14 @@ a {
 */
 .panel-cover
 {
-	/*display: block;
+	display: block;
 	position: fixed;
 	z-index: 900;
 	width: 100%;
 	max-width: none;
 	height: 100%;
 	background-size: cover;
-  */
+  
 	/*background: url(../images/dark-triangles.png) top left repeat #666666;*/
 }
 
