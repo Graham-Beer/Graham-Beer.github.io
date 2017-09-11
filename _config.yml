@@ -15,13 +15,13 @@ author:
   linkedin_username: graham-beer-7a178951
   resume: PDF/CV_Graham_Beer.pdf
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# defaults:
+#  -
+#    scope:
+#      path: ''
+#      type: 'posts'
+#    values:
+#        layout: 'post'
 
 # Build settings
 destination: _site
@@ -36,13 +36,19 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-  syntax_highlighter_opts:    
-    css_class: 'highlight'    
-    span:      
-      line_numbers: false    
-    block:      
-      line_numbers: true      
-      start_line: 1
+#  syntax_highlighter_opts:    
+#    css_class: 'highlight'    
+#    span:      
+#      line_numbers: false    
+#    block:      
+#      line_numbers: true      
+#      start_line: 1
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-seo-tag
 
 gems: ['jekyll-paginate', 'jemoji', 'jekyll-sitemap', 'jekyll-gist']
 
