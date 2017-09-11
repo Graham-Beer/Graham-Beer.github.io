@@ -200,16 +200,17 @@ a {
   background: url('..images/cover.jpg');
 }
 */
+
 .panel-cover
 {
-	display: block;
+/*	display: block;
 	position: fixed;
 	z-index: 900;
 	width: 100%;
 	max-width: none;
 	height: 100%;
 	background-size: cover;
-  
+  */
 	/*background: url(../images/dark-triangles.png) top left repeat #666666;*/
 }
 
