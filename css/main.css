@@ -218,13 +218,13 @@ a {
 {
   font-size: 1.5em;
 }
-/*
+
 .panel-title.panel-cover__title::after 
 /* {
     content: '~ ';
     color: #f92672;
 } */
-/*
+
 .panel-cover__description
 {
     width: 90%;
@@ -242,7 +242,7 @@ a {
     content: '$ ';
     color: #f92672;
 }
-*/
+
 .post hr 
 {
   /* display: block; */
