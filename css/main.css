@@ -48,14 +48,14 @@ pre.highlight code,
     margin: 0 20px 10px;
 }
 
-/*.user-image {
+.user-image {
   margin-bottom: 1.2em;
   position: relative;
   width: 100px;
   height: 100px;
   border: 3px solid #fff;
   border-radius:100%;
-}*/
+}
 
 
 /*
@@ -202,14 +202,14 @@ a {
 */
 .panel-cover
 {
-	/*display: block;
+	display: block;
 	position: fixed;
 	z-index: 900;
 	width: 100%;
 	max-width: none;
 	height: 100%;
 	background-size: cover;
-  */
+  
 	/*background: url(../images/dark-triangles.png) top left repeat #666666;*/
 }
 
@@ -219,10 +219,10 @@ a {
 }
 
 .panel-title.panel-cover__title::after 
-/* {
+ {
     content: '~ ';
     color: #f92672;
-} */
+} 
 
 .panel-cover__description
 {
@@ -309,17 +309,17 @@ article h2, article h3, article h4
  * Blinker/Post title
  */
 
-/*article h1 span.prompt::before {
+article h1 span.prompt::before {
    content: '$ echo "';
    color: #f92672;
    font-size: 0.8em;
-}*/
+}
 
-/*article h1 span.prompt::after {
+article h1 span.prompt::after {
    content: '"';
    color: #f92672;
    font-size: 0.8em;
-}*/
+}
 
 .blinker {
   -webkit-animation-name: blinker;
@@ -461,12 +461,12 @@ article p img
 }
 
 .post-list__post-title::before
-/*{
+{
    content: 'PS C:\\>  ';
    color: #f0f2f1;
    background-color: #00499a;
    font-size: .8em;
-}*/
+}
 
 .post-list__meta--date, .post-list__meta
 {
