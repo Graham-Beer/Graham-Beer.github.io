@@ -15,18 +15,18 @@ author:
   linkedin_username: graham-beer-7a178951
   resume: PDF/CV_Graham_Beer.pdf
 
-# defaults:
-#  -
-#    scope:
-#      path: ''
-#      type: 'posts'
-#    values:
-#        layout: 'post'
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
 destination: _site
 paginate: 5
-permalink: /:title/
+permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
