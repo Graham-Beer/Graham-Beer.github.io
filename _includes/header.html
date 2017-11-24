@@ -76,8 +76,7 @@
               </li>
             {% endif %}
               
-            {% if site.author.resume %}
-              <!-- Resume -->
+            {% if site.author.resume %}              <!-- Resume -->
               <li class="navigation__item">
                <!-- <a href="{{ site.baseurl }}/{{ site.author.Resume }}" title="Resume {{ site.author.Resume }}" target="_blank"> -->
                   <a href="{{ "PDF/CV_Graham_Beer.pdf" | prepend: site.baseurl }}" title="Resume {{ site.author.Resume }}" target="_blank">
@@ -106,7 +105,9 @@
             </li>
           
             </ul>
-          </nav>         
+          </nav>  
+            
+          
    <!--
       PeoplePerHour Profile Widget
       The div#pph-hire me is the element
@@ -123,8 +124,7 @@
       js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/1643589316/1938983.js?width=300&height=135&orientation=vertical&theme=dark&rnd='+parseInt(Math.random()*10000, 10);
       try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
   }(document, 'script'));
-  </script>"
-          
+  </script>        
         </div>
 
       </div>
