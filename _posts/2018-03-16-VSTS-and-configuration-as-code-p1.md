@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using VSTS and configuration as code to deploy Azure infrastructure – Part 1"
-date:   2018-032-16 09:00
+date:   2018-03-16 09:00
 comments: true
 description: "Using VSTS and configuration as code to deploy Azure infrastructure – Part 1"
 categories: 
