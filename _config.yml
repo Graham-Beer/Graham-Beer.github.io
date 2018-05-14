@@ -1,7 +1,7 @@
 # Site settings
 title: ${Graham Beer} = 'blog'
-description:
-Bad PowerShell is easy to do, but good Powershell is harder\n
+description: \"Bad PowerShell is easy to do, but good Powershell is harder\"\n
+··\n
 Infrastucture Engineer, PowerShell Developer, WinOps and Automation
 url: 'https://graham-beer.github.io'
 baseurl: '/'
