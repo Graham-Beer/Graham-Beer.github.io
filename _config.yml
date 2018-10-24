@@ -1,8 +1,8 @@
 # Site settings
 title: ${Graham Beer} = 'blog'
 description: "Infrastructure Engineer,
-Authored chapter in PowerShell Conference Book, 
-Co-founder of PowerShell user group in the South of England and Top 50 Blogger 2018"
+authored chapter in the PowerShell Conference Book, 
+co-founder of the PowerShell user group in the South Coast and Top 50 Blogger 2018"
 url: 'https://graham-beer.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
