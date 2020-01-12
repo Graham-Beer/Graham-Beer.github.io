@@ -32,7 +32,7 @@ The main two files I will be working with is of course the program.cs and our ow
 
 Before defining the Program.cs file, lets create our stack. I'm going to show the completed MyStack.cs file and break down the main areas.
 
-![](/images/PS-Book-Conf.png)
+![](/images/MyStack_broken_down.png)
 
 1. The C# using directive is adding the namespace required to make use of the required constructs to build your environment. The AWS CDK has many namespaces available and are detailed here [CDK .NET Reference](https://docs.aws.amazon.com/cdk/api/latest/dotnet/api/index.html). To add a namespace, the dotnet command line is used. This is done like so, `dotnet add package amazon.CDK.AWS.S3`.
 2. Creating your own stack is done by inheriting the Stack class. In this example I’ve created the derived class called MyStack.
@@ -52,7 +52,7 @@ Before defining the Program.cs file, lets create our stack. I'm going to show th
 
 Now that we have **MyStack.cs** file, we can setup the **program.cs**. Here is how it’s done:
 
-<img src="https://github.com/Graham-Beer/Graham-Beer.github.io/blob/master/images/AWS_CDK/Setting%20program%20file.png" />
+![](/images/Setting_program_file.png)
 
 1. A new object is created from the App class. This line of code already exists when creating a new project with the `cdk init` command. This is a representation of a CDK program.
 2. We are now using the MyStack class we wrote to create our bucket. The **StackProps** class is used to allow us to define the AWS account Id and the region where the bucket will be created. By making use of the **StackProps** class in this way by setting up a new environment allows us to create buckets across multiple accounts and regions.
@@ -60,23 +60,23 @@ Now that we have **MyStack.cs** file, we can setup the **program.cs**. Here is h
 
 To pull all of this together we are required to build the project and all of its dependencies. This is done by running the dotnet build command from the directory of our Csharp files, **program.cs** and **MyStack.cs**:
 
-<img src="https://github.com/Graham-Beer/Graham-Beer.github.io/blob/master/images/AWS_CDK/dotnet%20build.png" />
+![](/images/dotnet_build.png)
 
 We now have a **Build succeeded**, so let’s deploy our app!
 Running from the root folder, run the `cdk deploy` command:
 
-<img src="https://github.com/Graham-Beer/Graham-Beer.github.io/blob/master/images/AWS_CDK/cdk%20deploy%20test.png" />
+![](/images/cdk_deploy test.png)
 
 The above screen gives us the details on the deployment and the steps. Notice that as well as the bucket being created, we have a CloudFormation stack also created.
 Checking from within the console, I can see that our work was successful:
 
-<img src="https://github.com/Graham-Beer/Graham-Beer.github.io/blob/master/images/AWS_CDK/S3%20from%20Console.png" />
+![](/images/S3_from_Console.png)
 
 The two arrows are pointing at the bucket name and the custom Lifecycle rule we attached.
 
 Viewing the CloudFormation template that our code created can be done through the CDK command line by typing in `cdk synth`:
 
-<img src="https://github.com/Graham-Beer/Graham-Beer.github.io/blob/master/images/AWS_CDK/CloudFormation%20template.png" />
+![](/images/CloudFormation_template.png)
 
 I hope this article has shown the great potential in the AWS CDK. The documentation by AWS has greatly improved, with the CDK reference the standout. There is so much more you can do with the CDK, even down to creating your own constructs. So, take a look and get building!
 
