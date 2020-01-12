@@ -32,7 +32,7 @@ The main two files I will be working with is of course the program.cs and our ow
 
 Before defining the Program.cs file, lets create our stack. I'm going to show the completed MyStack.cs file and break down the main areas.
 
-![]("images/AWS_CDK/MyStack broken down.png")
+![](images/PS-Book-Conf.png)
 
 1. The C# using directive is adding the namespace required to make use of the required constructs to build your environment. The AWS CDK has many namespaces available and are detailed here [CDK .NET Reference](https://docs.aws.amazon.com/cdk/api/latest/dotnet/api/index.html). To add a namespace, the dotnet command line is used. This is done like so, `dotnet add package amazon.CDK.AWS.S3`.
 2. Creating your own stack is done by inheriting the Stack class. In this example I’ve created the derived class called MyStack.
