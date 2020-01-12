@@ -12,8 +12,6 @@ tags:
     - C#
 ---
 
-# The AWS CDK using C#
-
 If you want to automate the provisioning of your infrastructure in AWS you would use CloudFormation. You can code some or even all your infrastructure with the use of the CloudFormation template language, which is written in YAML or JSON. JSON and more so YAML are very human-readable, providing a way to document your Infrastructure as well. The disadvantage of JSON and YAML is that it lacks the abstraction and reuse of a general-purpose languages, such as C#, GO, PowerShell and such like. Many times, a few lines of code in one of these languages can much more in JSON or YAML!
 
 Amazon have seemed to notice this, and with the emergence of Pulumi, have developed the AWS Cloud Development Kit (CDK). The advantage to the CDK for AWS customers is that it’s an open source project, so no further cost.
