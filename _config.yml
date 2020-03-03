@@ -1,20 +1,19 @@
 # Site settings
 # title: ${Graham Beer} = 'blog'
-title: ">>> type(Graham Beer)
-<class 'blog'>"
+title: __blog__ = 'Graham Beer'
 description: "Platform Engineer with his head in the AWS clouds,
 authored chapter in the PowerShell Conference Book 1 & 2, 
 co-founder of the PowerShell user group in the South Coast of England,
 fan and user of Python"
 url: 'https://graham-beer.github.io'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-159639316-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Graham Beer'
   email: Graham.Beer@DTLK.co.uk
-  # twitter_username: 
+  twitter_username: @GKBeer
   # facebook_username: 
   github_username: Graham-Beer
   linkedin_username: graham-beer-7a178951
