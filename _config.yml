@@ -1,8 +1,10 @@
 # Site settings
-title: ${Graham Beer} = 'blog'
-description: "Infrastructure Engineer,
+# title: ${Graham Beer} = 'blog'
+title: __blog__ = f"{Graham Beer}"
+description: "Platform Engineer with his head in the AWS clouds,
 authored chapter in the PowerShell Conference Book, 
-co-founder of the PowerShell user group in the South Coast and Top 50 Blogger 2018"
+co-founder of the PowerShell user group in the South Coast of England,
+fan and user of Python"
 url: 'https://graham-beer.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
