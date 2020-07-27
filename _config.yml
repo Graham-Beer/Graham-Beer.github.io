@@ -27,7 +27,7 @@ defaults:
     values:
         layout: 'post'
 
-_plugins:
+plugins:
   - jekyll-time-to-read
 
 # Build settings
