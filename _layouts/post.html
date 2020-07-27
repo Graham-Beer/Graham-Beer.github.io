@@ -12,12 +12,10 @@ layout: default
         {% for tag in page.tags %}
           <a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> 
         {% endfor %}
-      </span>
-      <class="container">
         {%if page.time_to_read%}
           <p class="subtitle is-4">{% include read_time.html content=page.content %}</p>
         {%endif%}
-      </container>
+      </span>
     </div>
       <h1 class="post-title"><span class="prompt">{{ page.title }}</span><span class="blinker"></span></h1>
   </header>
