@@ -12,8 +12,8 @@ layout: default
         {% for tag in page.tags %}
           <a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> 
         {% endfor %}
-      </span> &#8226;
-      <span class="subtitle is-4">Article takes: 
+      </span> &#8226; 
+      <span class="time_to_read">Article takes: 
         {% include read_time.html content=page.content %}
       </span>
 
