@@ -12,6 +12,7 @@ tags:
     - AWS
     - CloudWatch
     - Python
+time_to_read: true
 ---
 
 In this post we will look at the new Amazon Web Services (AWS) UI designs for CloudWatch and also schedule a daily billing check to give alerts on overspending. We have to use a Lambda function for this purpose because CloudWatch does not offer daily spending alerts.
