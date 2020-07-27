@@ -13,6 +13,11 @@ layout: default
           <a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> 
         {% endfor %}
       </span>
+      <div class="container">
+        {%if page.time_to_read%}
+          <p class="subtitle is-6">{% include read_time.html content=page.content %}</p>
+        {%endif%}
+      </div>
     </div>
       <h1 class="post-title"><span class="prompt">{{ page.title }}</span><span class="blinker"></span></h1>
   </header>
