@@ -36,7 +36,7 @@ GEM
       jekyll-sitemap (= 0.10.0)
       jekyll-textile-converter (= 0.1.0)
       jemoji (= 0.5.1)
-      kramdown (= 1.9.0)
+      kramdown (>= 2.3.0)
       liquid (= 3.0.6)
       mercenary (~> 0.3)
       rdiscount (= 2.1.8)
