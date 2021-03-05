@@ -40,7 +40,7 @@ GEM
       liquid (= 3.0.6)
       mercenary (~> 0.3)
       rdiscount (= 2.1.8)
-      redcarpet (= 3.3.3)
+      redcarpet (>= 3.5.1)
       rouge (= 1.10.1)
       terminal-table (~> 1.4)
     github-pages-health-check (0.6.0)
