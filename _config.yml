@@ -1,10 +1,9 @@
 # Site settings
 # title: ${Graham Beer} = 'blog'
 title: const details = { firstName = 'Graham', lastName = 'Beer' };
-description: '"""Platform Engineer with his head in the AWS clouds,
-authored chapter in the PowerShell Conference Book 1 & 2, 
-co-founder of the PowerShell user group in the South Coast of England,
-fan and user of Python"""'
+description: '`Platform Engineer with his head in the AWS clouds,
+authored chapters in the PowerShell Conference Book 1 & 2, 
+currently learning JavaScript/TypeScript and enjoys learning`'
 url: 'https://graham-beer.github.io'
 baseurl: '/'
 google_analytics: 'UA-159639316-1'
