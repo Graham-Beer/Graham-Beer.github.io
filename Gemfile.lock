@@ -8,7 +8,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
+    addressable (2.8.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -44,7 +44,7 @@ GEM
       rouge (= 1.10.1)
       terminal-table (~> 1.4)
     github-pages-health-check (0.6.0)
-      addressable (~> 2.3)
+      addressable (~> 2.8.0)
       net-dns (~> 0.8)
       public_suffix (~> 1.4)
       typhoeus (~> 0.7)
@@ -110,7 +110,7 @@ GEM
     safe_yaml (1.0.4)
     sass (3.4.21)
     sawyer (0.6.0)
-      addressable (~> 2.3.5)
+      addressable (~> 2.8.0)
       faraday (~> 0.8, < 0.10)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
