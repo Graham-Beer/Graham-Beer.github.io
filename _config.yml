@@ -1,6 +1,6 @@
 # Site settings
 # title: ${Graham Beer} = 'blog'
-title: const details = { firstName = 'Graham', lastName = 'Beer' };
+title: name := "Graham Beer"
 description: '`Cloud Engineer with his head in the AWS clouds,
 authored chapters in the PowerShell Conference Book 1 & 2 
 and currently learning and enjoying Go'
@@ -11,7 +11,7 @@ google_analytics: 'UA-159639316-1'
 
 author:
   name: 'Graham Beer'
-  email: Graham.Beer@DTLK.co.uk
+  email: Graham.Beer@outlook.com
   twitter_username: GKBeer
   # facebook_username: 
   github_username: Graham-Beer
