@@ -8,11 +8,11 @@ description: "How to create and use Adaptive Cards"
 categories:
     - Teams
     - Microsoft
-    - AdaptiveCars
+    - AdaptiveCards
 tags:
     - Teams
     - Microsoft
-    - AdaptiveCars
+    - AdaptiveCards
 ---
 
 Adaptive Cards are a platform-agnostic specification for defining and rendering rich interactive content within various applications and chat channels, such as Teams or Slack. 
